@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+
+<html lang="ru"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="#eff9ee" name="theme-color"/><meta content="Химия и котики — учебный сайт с конспектами, тестом и заданиями для самостоятельной подготовки." name="description"/><title>Химия и котики | ХиК</title><style>*{box-sizing:border-box}body{margin:0;background:#f6faf2;color:#24483e;font-family:Arial,system-ui,sans-serif;line-height:1.58}a{color:#39775b}header{background:#ffffffd9;position:sticky;top:0;z-index:8;border-bottom:1px solid #e0e9dd;backdrop-filter:blur(12px)}.wrap{width:min(1160px,calc(100% - 44px));margin:auto}.nav{display:flex;align-items:center;justify-content:space-between;min-height:88px;gap:18px}.brand{display:flex;align-items:center}.brand img{width:285px;max-width:100%;height:auto;display:block}.links{display:flex;gap:24px;align-items:center;flex-wrap:wrap}.links a{font-weight:800;text-decoration:none;color:#31594b}.pill,.primary{background:#2b7558;color:white!important;padding:12px 20px;border-radius:999px;text-decoration:none;border:0;font-weight:800;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}.pill:hover,.primary:hover{background:#1c573f}.hero{padding:72px 0 58px;display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:center}.eyebrow{color:#4c8966;font-size:14px;text-transform:uppercase;letter-spacing:2.5px;font-weight:900}.hero h1{font-size:clamp(44px,5.8vw,83px);letter-spacing:-3px;line-height:1.02;margin:18px 0 23px}.hero h1 span{color:#77a767}.lead{font-size:19px;color:#5f796b;max-width:600px}.hero .buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.secondary{padding:11px 20px;border:2px solid #c8e1cf;border-radius:999px;font-weight:800;text-decoration:none;color:#2f755a;background:#fff}.mascot{background:radial-gradient(circle at 46% 42%,#e0f2d0,#b8dfc7);border:9px solid white;box-shadow:0 22px 62px #41694e21;border-radius:38px;min-height:410px;display:grid;place-items:center;position:relative;overflow:hidden}.mascot img{width:min(82%,350px);height:390px;object-fit:contain}.mascot .note{position:absolute;bottom:17px;left:17px;right:17px;text-align:center;background:#fffdf2e8;border-radius:15px;padding:9px;font-weight:900}.steps{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}.steps span{background:#fff;border:1px solid #d6e8cd;border-radius:99px;padding:8px 13px;font-size:13px;font-weight:800}.section{padding:35px 0 57px}.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:25px}.section h2{font-size:clamp(31px,4vw,47px);margin:6px 0;letter-spacing:-1px}.section-head p{color:#668172;max-width:490px}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px}.card{background:white;border:1px solid #dcebdd;border-radius:25px;box-shadow:0 7px 26px #2a704512;overflow:hidden;min-width:0}.card .art{height:151px;background:linear-gradient(130deg,#d9efc2,#d4eee4);display:flex;align-items:center;justify-content:center;position:relative}.big-icon{font-size:59px;filter:drop-shadow(0 5px 4px #5b896235)}.number{position:absolute;top:12px;left:13px;font-size:12px;font-weight:900;background:white;padding:5px 9px;border-radius:99px}.card-body{padding:22px;display:flex;flex-direction:column;min-height:224px}.card h3{font-size:21px;line-height:1.2;margin:0 0 11px}.card p{color:#6b8174;font-size:14px;margin:0 0 19px}.card .small-link{margin-top:auto;font-weight:850;text-decoration:none}.video-note{display:inline-block;font-size:12px;color:#886a3b;background:#fff3db;border-radius:999px;padding:6px 10px;font-weight:800;margin-top:auto}.materials .card-body{min-height:170px}.material-icon{font-size:32px}.study-flow{display:grid;grid-template-columns:1fr 1fr;gap:18px}.feature{background:#e6f3e2;border:1px solid #cfdfcd;border-radius:27px;padding:30px}.feature:nth-child(2){background:#e4f1ea}.feature h3{font-size:26px;margin:10px 0}.feature p{color:#58736a}.quizbox{background:white;border:1px solid #dcebdd;border-radius:28px;padding:28px;box-shadow:0 12px 36px #285e3612}.progress{height:9px;border-radius:99px;background:#e3ede5;overflow:hidden}.progress span{height:100%;background:#65a879;display:block;transition:width .2s}.answers{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin:20px 0}.answer{padding:14px 17px;text-align:left;border-radius:15px;border:1px solid #bedcc8;background:#f8fcf6;color:#28513d;cursor:pointer;font-size:16px}.answer:hover{border-color:#53976e}.answer.correct{background:#d5f1d7;border-color:#5aa06d}.answer.wrong{background:#fde0d6;border-color:#cd866b}.feedback{font-weight:700;min-height:48px}.hidden{display:none!important}.questions details{background:#fff;border:1px solid #dcebdd;padding:20px;border-radius:17px;margin-bottom:12px}.questions summary{font-weight:800;cursor:pointer}.questions details p{color:#58766a}.tag{font-size:13px;color:#4b8766;font-weight:800;text-transform:uppercase;letter-spacing:1px}.notice{background:#fff8ea;border:1px solid #f0e3c7;color:#786447;padding:14px 20px;border-radius:16px}.footer{border-top:1px solid #dfeadb;padding:32px 0 45px;color:#71917b;font-size:13px}.footer strong{color:#396e54}@media(max-width:970px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{grid-template-columns:1fr 0.85fr;gap:17px}.links{gap:11px}.brand img{width:210px}}@media(max-width:680px){.wrap{width:min(100% - 28px,1160px)}.nav{flex-direction:column;justify-content:center;padding:12px 0}.links{justify-content:center;font-size:13px}.links a{font-size:12px}.links .pill{padding:7px 11px}.hero{grid-template-columns:1fr;padding:32px 0}.hero h1{letter-spacing:-2px}.mascot{min-height:320px}.mascot img{height:300px}.grid,.study-flow,.answers{grid-template-columns:1fr}.section-head{display:block}.card .art{height:130px}.card-body{min-height:unset}}
+
+/* Polished standalone theme */
+:root{--leaf:#2c7456;--deep:#1b483b;--mint:#dcefd7;--cream:#f7fbf1}
+html{scroll-behavior:smooth;scroll-padding-top:104px}
+body{background:linear-gradient(180deg,#f7fbf1 0%,#f1f8ed 46%,#f8faf5 100%)}
+header{box-shadow:0 4px 22px rgba(28,80,52,.055)}
+.nav{min-height:96px}
+.hero h1{letter-spacing:-.045em;line-height:1.05}
+.hero .lead{max-width:640px}
+.mascot{border-radius:32px;box-shadow:0 22px 50px rgba(35,83,57,.12)}
+.mascot img{max-width:100%;height:auto;object-fit:contain}
+.card,.feature,.quizbox,.questions details{box-shadow:0 12px 32px rgba(30,79,52,.065)}
+.card{transition:transform .2s ease,box-shadow .2s ease}
+.card:hover{transform:translateY(-3px);box-shadow:0 18px 40px rgba(30,79,52,.11)}
+.big-icon{display:grid;place-items:center;font-family:'Apple Color Emoji','Segoe UI Emoji',sans-serif}
+button,a{transition:background-color .2s ease,transform .2s ease}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #94bb59;outline-offset:4px}
+@media(max-width:850px){.nav{padding:14px 0;flex-wrap:wrap}.brand img{width:230px}.links{gap:10px 16px}.links a{font-size:14px}.hero{padding-top:42px}}
+@media(max-width:520px){.wrap{width:min(100% - 26px,1160px)}.brand img{width:212px}.links{justify-content:center}.links .pill{padding:8px 13px}.hero{padding:32px 0}.hero h1{font-size:clamp(39px,10vw,56px)}.mascot{max-width:350px;margin:auto}}
+
+/* Chemistry & cats — colorful rounded editorial identity */
+:root{--ink:#24271e;--dark:#252c22;--acid:#c9ef69;--pink:#ffb9c3;--lilac:#d8c8ff;--butter:#fff0ab;--paper:#fffefa;--muted:#555e4c;--line:#252c22}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:100px}
+body{font-family:ui-rounded,'Arial Rounded MT Bold',Arial,system-ui,sans-serif;color:var(--ink);background:#f9f8ed;line-height:1.5}
+.wrap{width:min(1220px,calc(100% - 56px));margin:auto}
+header{background:#fffefa;backdrop-filter:none;box-shadow:none;border-bottom:2px solid #e8e8d9;position:sticky;top:0;z-index:20}
+.nav{min-height:102px;gap:20px}
+.brand img{width:255px;height:auto}
+.links{gap:10px 24px}
+.links a{color:#293327;font-size:16px;font-weight:900}
+.links .pill{background:var(--dark);color:white!important;border-radius:14px;padding:13px 20px;box-shadow:4px 4px 0 var(--acid)}
+.links .pill:hover{background:#43532f;transform:translateY(-2px)}
+.hero{position:relative;min-height:670px;padding:84px 0 90px;grid-template-columns:1.16fr .84fr;gap:42px}
+.hero:before{content:'';position:absolute;background:#e6f5c4;left:-10vw;right:-10vw;top:32px;bottom:35px;border-radius:64px;z-index:-1}
+.eyebrow{background:#fff9df;border:2px solid #293327;display:inline-flex;align-items:center;border-radius:100px;padding:10px 17px;color:#242a20;font-size:13px;letter-spacing:1.8px;text-transform:uppercase;box-shadow:4px 4px 0 #b0d46c}
+.hero h1{font-size:clamp(55px,6.3vw,103px);font-weight:950;letter-spacing:-.065em;line-height:.99;max-width:750px;margin:24px 0 23px}
+.hero h1 span{color:#4f8e43;position:relative}
+.hero .lead{font-size:clamp(18px,1.75vw,23px);color:#465440;max-width:660px;line-height:1.5}
+.hero .buttons{gap:14px;margin-top:35px}
+.primary,.pill{border:2px solid var(--dark);border-radius:14px;background:var(--dark);color:white!important;box-shadow:5px 5px 0 #7ca84e;font-size:16px;padding:15px 24px}
+.primary:hover,.pill:hover{background:#3c4e2e;transform:translate(-1px,-2px)}
+.secondary{background:white;color:#252c22;border:2px solid #252c22;border-radius:14px;box-shadow:5px 5px 0 #ced7b2;font-size:16px;padding:15px 24px}
+.secondary:hover{transform:translateY(-2px);background:#fffbee}
+.steps{gap:10px;margin-top:30px}
+.steps span{border:1.5px solid #526844;background:#fffee8;color:#37422f;padding:9px 14px;font-size:14px}
+.mascot{min-height:500px;background:#ffecc0;border:3px solid #283429;border-radius:43% 44% 36% 36%/37% 38% 39% 43%;box-shadow:14px 15px 0 #9dcf83;transform:rotate(2deg);overflow:hidden}
+.mascot:before{content:'H₂O  +  NaCl   ✧';position:absolute;top:26px;left:30px;font-size:19px;letter-spacing:3px;color:#557343;font-weight:900}
+.mascot:after{content:'✦';font-size:62px;color:#f5ae7b;position:absolute;right:21px;top:22px}
+.mascot img{width:min(91%,430px);height:435px;object-fit:contain;filter:drop-shadow(0 8px 0 rgba(0,0,0,.04))}
+.mascot .note{background:#fffefa;border:2px solid #252c22;border-radius:15px;bottom:20px;left:30px;right:30px;box-shadow:4px 4px 0 #ecab95;font-size:15px;padding:12px;transform:rotate(-2deg)}
+.section{padding:56px 0 76px}
+.section:nth-of-type(even){background:#f0f3e5}
+.section-head{align-items:end;margin-bottom:32px}
+.section h2{font-size:clamp(37px,4.2vw,61px);letter-spacing:-.055em;color:#272d22;line-height:1.07;margin:10px 0}
+.section-head p{color:#566451;font-size:17px;max-width:420px}
+.tag{display:inline-block;border:1.8px solid #30362c;background:#d9edb2;border-radius:99px;padding:7px 15px;color:#293727;font-weight:900;font-size:13px;letter-spacing:.2px}
+.grid{gap:22px}
+.card,.feature,.quizbox,.questions details{border:2px solid #2b3326;border-radius:23px;background:#fffefa;box-shadow:6px 6px 0 #cadcb6;overflow:hidden}
+.card:hover{transform:translate(-2px,-4px);box-shadow:8px 10px 0 #b9d194}
+.card .art{height:180px;position:relative;border-bottom:2px solid #30352e;overflow:hidden;background:#e9dfff}
+.card:nth-child(2n) .art{background:#ffdfa9}
+.card:nth-child(3n) .art{background:#cce6cc}
+.card:nth-child(4n) .art{background:#ffcbd0}
+.card .art:before{content:'';position:absolute;width:210px;height:210px;border:2px dashed rgba(40,47,37,.13);border-radius:50%;top:30px;right:-42px}
+.big-icon{position:relative;z-index:1;font-size:78px;line-height:1;filter:drop-shadow(4px 6px 0 #ffffff9a)}
+.card .number{background:white;border:1.5px solid #30352e;color:#30352e;border-radius:99px;z-index:1}
+.card-body{padding:22px}
+.card h3{color:#293027;line-height:1.2;font-size:21px;letter-spacing:-.02em}
+.card p{color:#5a6356}
+.material-icon{font-size:47px}
+.card .secondary{font-size:14px;padding:12px 15px;box-shadow:3px 3px 0 #d8dfb7}
+.quizbox{padding:32px;background:#f7f4ff;box-shadow:8px 8px 0 #d0c0fc}
+.feature{background:#fff9e8}
+.questions details{margin-bottom:13px;padding:20px 24px;box-shadow:4px 4px 0 #d7e5c8}
+.questions summary{font-weight:850;cursor:pointer}
+button{font-family:inherit}
+.footer{background:#252b20;color:white;padding:32px 0}
+.footer strong{color:#d6f3a4}
+.footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #7baa3e;outline-offset:4px}
+@media(max-width:1100px){.links{gap:10px 15px}.links a{font-size:14px}.hero{min-height:600px}.mascot{min-height:390px}.mascot img{height:350px}}
+@media(max-width:850px){.nav{padding:15px 0;flex-wrap:wrap}.brand img{width:230px}.links{justify-content:flex-start}.hero{padding:60px 0 72px;grid-template-columns:1fr}.hero:before{top:12px;bottom:25px;border-radius:30px}.hero h1{font-size:clamp(53px,9vw,76px)}.mascot{width:min(430px,90%);min-height:390px;margin:0 auto;transform:rotate(1deg)}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.section-head{align-items:start;flex-wrap:wrap}}
+@media(max-width:520px){.wrap{width:min(100% - 32px,1220px)}.nav{gap:12px}.brand img{width:210px}.links{gap:8px 14px}.links a{font-size:13px}.links .pill{padding:9px 12px}.hero{padding:45px 0 60px;gap:35px}.hero:before{left:-16px;right:-16px;border-radius:22px}.hero h1{font-size:clamp(47px,12vw,65px);letter-spacing:-.055em}.hero .lead{font-size:17px}.eyebrow{font-size:10px;letter-spacing:1px}.mascot{min-height:320px}.mascot img{height:310px}.mascot .note{font-size:12px}.section{padding:44px 0 58px}.section h2{font-size:38px}.section-head p{font-size:15px}.grid{grid-template-columns:1fr}.card .art{height:150px}.quizbox{padding:20px}}
+
+/* User-requested purple redesign */
+:root{--purple-bg:#b79ae9;--purple-deep:#5a33b5;--purple-mid:#7a57d1;--purple-soft:#d9ccff;--purple-card:#efe9ff;--purple-line:#6d4cc8;--text-dark:#2a2044}
+body{background:linear-gradient(180deg,#b79ae9 0%,#c7b1f2 35%,#e7ddff 100%)!important;color:var(--text-dark)!important}
+header{background:rgba(255,255,255,.82)!important;border-bottom:2px solid rgba(90,51,181,.15)!important;backdrop-filter:blur(8px)}
+.brand img{width:330px!important;max-width:100%;height:auto;display:block}
+.links a{color:#3f2f70!important}.links .pill,.primary{background:var(--purple-deep)!important;border-color:var(--purple-deep)!important;box-shadow:5px 5px 0 #dbcdfd!important}.links .pill:hover,.primary:hover{background:var(--purple-mid)!important}
+.secondary{color:var(--purple-deep)!important;border-color:var(--purple-deep)!important;box-shadow:5px 5px 0 #ddd6f6!important;background:#fff}
+.hero{padding-top:74px!important}.hero:before{background:rgba(255,255,255,.28)!important;border-radius:56px!important;top:20px!important;bottom:30px!important}.eyebrow{background:#fff!important;border-color:var(--purple-deep)!important;box-shadow:4px 4px 0 #ddd0ff!important;color:var(--purple-deep)!important}.hero h1{color:#fff!important;text-shadow:0 3px 0 rgba(90,51,181,.20)}.hero h1 span{color:#fff4a8!important}.hero .lead{color:#f8f4ff!important;max-width:670px!important}.steps span{background:#fff!important;border-color:#cfbfff!important;color:var(--purple-deep)!important}
+.mascot{background:linear-gradient(180deg,#eadfff,#d4c1ff)!important;border:3px solid rgba(255,255,255,.8)!important;box-shadow:0 24px 60px rgba(73,39,145,.22)!important;border-radius:34px!important}.mascot img{width:min(90%,470px)!important;height:auto!important;max-height:430px;object-fit:contain!important}.mascot .note{background:rgba(255,255,255,.92)!important;color:var(--purple-deep)!important}
+.section{padding:38px 0 58px!important}.section-head p,.card p,.feature p,.questions details p,.notice,.video-note,.lead,.footer{color:#4b4166!important}.tag,.eyebrow{color:var(--purple-deep)!important}.section h2{color:#fff!important;text-shadow:0 2px 0 rgba(90,51,181,.18)}
+.card,.quizbox,.questions details{background:rgba(255,255,255,.95)!important;border:1.5px solid #d8ccff!important;box-shadow:0 14px 32px rgba(59,33,122,.10)!important}.card .art{background:linear-gradient(135deg,#f2ecff,#d8c8ff)!important}.number{background:#fff!important;color:var(--purple-deep)!important}.video-note{background:#f4eeff!important;color:var(--purple-deep)!important}.small-link,a{color:var(--purple-deep)}
+.feature{background:#f0e9ff!important;border:1.5px solid #d8ccff!important}.feature:nth-child(2){background:#ebe3ff!important}.progress{background:#e5ddfb!important}.progress span{background:var(--purple-mid)!important}.answer{border-color:#d8cfff!important;background:#faf8ff!important;color:#32285b!important}.answer:hover{border-color:var(--purple-mid)!important}.answer.correct{background:#e4ffd9!important;border-color:#8ecb7b!important}.answer.wrong{background:#ffe3ea!important;border-color:#d597a6!important}
+.notice{background:#f6f0ff!important;border-color:#ddcffd!important}.footer{border-top:1px solid rgba(255,255,255,.35)!important;color:#f4efff!important}.footer strong{color:#fff!important}
+@media(max-width:850px){.brand img{width:260px!important}}
+
+
+/* ===== User aligned purple chemistry layout ===== */
+:root{--bg-main:#d8c6f5;--bg-soft:#ece4ff;--paper:#f7f6ef;--ink:#29513b;--purple:#5d39b6;--purple-2:#7e5ad5;--line:#ffffff;--btn-shadow:#d9ccff}
+html{scroll-behavior:smooth;scroll-padding-top:94px}
+body{margin:0;background:var(--bg-main)!important;color:#314735!important;font-family:Arial,system-ui,sans-serif}
+header{background:rgba(243,237,252,.92)!important;border-bottom:1px solid rgba(93,57,182,.10)!important;backdrop-filter:blur(6px)!important;position:sticky;top:0;z-index:40}
+.wrap{width:min(1220px,calc(100% - 56px));margin:auto}
+.chemistry-nav{min-height:96px!important;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;min-width:0}
+.brand img{width:min(400px,100%);max-width:400px;height:auto;display:block}
+.links{display:flex;align-items:center;gap:14px 26px;flex-wrap:wrap;justify-content:flex-end}
+.links a{font-size:16px;font-weight:800;color:#4a3b74!important;text-decoration:none}
+.links .pill,.primary{background:var(--purple)!important;border:2px solid var(--purple)!important;color:#fff!important;border-radius:16px!important;box-shadow:4px 4px 0 var(--btn-shadow)!important;padding:13px 22px!important;font-weight:800}
+.links .pill:hover,.primary:hover{background:var(--purple-2)!important;transform:translateY(-2px)}
+.secondary{background:#fff!important;border:2px solid var(--purple)!important;color:var(--purple)!important;border-radius:16px!important;padding:13px 22px!important;box-shadow:4px 4px 0 #eee6ff!important;font-weight:800;text-decoration:none}
+.secondary:hover{transform:translateY(-2px)}
+.chemistry-hero{padding:34px 0 46px!important;display:block!important;min-height:auto!important}
+.chemistry-hero:before{display:none!important}
+.hero-stack{display:flex;flex-direction:column;gap:22px;align-items:center}
+.brand-badge-card{width:min(560px,100%);background:#eef2e7;border-radius:28px;padding:0;box-shadow:none}
+.brand-badge-card img{display:block;width:100%;height:auto;border-radius:28px}
+.poster-card{width:min(860px,100%);background:transparent;border-radius:44px;padding:0;box-shadow:0 10px 30px rgba(85,57,160,.12)}
+.poster-card img{display:block;width:100%;height:auto;border-radius:44px}
+.poster-actions{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:4px}
+/* hide old hero internals if they somehow remain */
+.eyebrow,.lead,.steps,.mascot{display:none!important}
+.section{padding:34px 0 58px!important}
+.section-head{display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:24px}
+.section .tag{color:#5d39b6!important;font-weight:900;letter-spacing:1px}
+.section h2{color:#ffffff!important;text-shadow:0 2px 0 rgba(93,57,182,.22);font-size:clamp(34px,4.2vw,52px);margin:6px 0;letter-spacing:-1px}
+.section-head p{color:#4b4260!important;max-width:520px}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.card,.feature,.quizbox,.questions details{background:rgba(255,255,255,.95)!important;border:1px solid #ddd1ff!important;border-radius:28px!important;box-shadow:0 10px 26px rgba(77,57,143,.08)!important}
+.card .art{background:linear-gradient(135deg,#efe8ff,#e2d5ff)!important;height:160px!important}
+.big-icon{font-size:60px!important}
+.number{background:#fff!important;color:#5d39b6!important;font-weight:900}
+.card h3{color:#304635!important;font-size:22px}
+.card p,.feature p,.questions details p,.notice,.video-note,.quizbox p,.feedback{color:#5e5970!important}
+.video-note{background:#f4efff!important;color:#5d39b6!important}
+.small-link{color:#5d39b6!important}
+.feature{padding:30px!important}
+.progress{background:#e4dcfa!important}.progress span{background:#7b5dd6!important}
+.answer{background:#faf8ff!important;border-color:#d9cdff!important;color:#40386f!important}.answer:hover{border-color:#7b5dd6!important}
+.answer.correct{background:#e2f8dd!important;border-color:#8dc37f!important}.answer.wrong{background:#ffe5ee!important;border-color:#d799ab!important}
+.notice{background:#f7f1ff!important;border:1px solid #e0d2ff!important}
+.footer{border-top:1px solid rgba(255,255,255,.35)!important;color:#f5f1ff!important}
+.footer strong{color:#fff!important}
+@media (max-width: 980px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.chemistry-nav{flex-direction:column;align-items:flex-start;padding:18px 0}.brand img{max-width:340px}.links{justify-content:flex-start}.poster-card{width:min(760px,100%)}}
+@media (max-width: 680px){.wrap{width:min(100% - 28px,1220px)}.brand img{max-width:290px}.links{gap:10px 14px}.links a{font-size:13px}.links .pill,.primary,.secondary{padding:11px 16px!important}.brand-badge-card{width:100%}.poster-card{width:100%}.grid,.study-flow,.answers{grid-template-columns:1fr!important}.section-head{display:block}.section h2{font-size:34px}.poster-actions{justify-content:stretch}.poster-actions a{flex:1 1 220px;text-align:center}}
+
+
+/* ===== Final purple-only theme ===== */
+:root{
+  --bg-main:#d7c6f5;
+  --bg-soft:#ece5ff;
+  --bg-card:#faf7ff;
+  --bg-card-2:#f2ebff;
+  --paper:#ffffff;
+  --ink:#3a2f63;
+  --ink-soft:#655888;
+  --purple:#6738c5;
+  --purple-2:#7f5ce0;
+  --purple-3:#bba8f1;
+  --purple-4:#e3d8ff;
+  --line:#daccff;
+  --shadow:rgba(86,58,155,.14);
+}
+html{scroll-behavior:smooth;scroll-padding-top:94px}
+body{
+  background:linear-gradient(180deg,#d9caf7 0%,#e7ddff 42%,#f2edff 100%)!important;
+  color:var(--ink)!important;
+}
+header{
+  background:rgba(246,242,255,.92)!important;
+  border-bottom:1px solid rgba(103,56,197,.10)!important;
+  box-shadow:0 4px 18px rgba(86,58,155,.05)!important;
+}
+.links a{color:var(--ink)!important}
+.links .pill,.primary{
+  background:var(--purple)!important;
+  border:2px solid var(--purple)!important;
+  color:#fff!important;
+  box-shadow:4px 4px 0 #e1d6ff!important;
+}
+.links .pill:hover,.primary:hover{background:var(--purple-2)!important}
+.secondary{
+  background:#fff!important;
+  border:2px solid var(--purple)!important;
+  color:var(--purple)!important;
+  box-shadow:4px 4px 0 #eee8ff!important;
+}
+.brand-badge-card{
+  background:#f4efff!important;
+  box-shadow:0 10px 28px var(--shadow)!important;
+}
+.poster-card{
+  box-shadow:0 12px 34px rgba(90,61,173,.16)!important;
+}
+.section .tag,.tag{color:var(--purple)!important}
+.section h2{color:#fff!important;text-shadow:0 2px 0 rgba(103,56,197,.22)!important}
+.section-head p,.card p,.feature p,.questions details p,.notice,.video-note,.quizbox p,.feedback{color:var(--ink-soft)!important}
+.card,.feature,.quizbox,.questions details{
+  background:rgba(255,255,255,.96)!important;
+  border:1px solid var(--line)!important;
+  box-shadow:0 10px 26px rgba(103,56,197,.08)!important;
+}
+.card h3,.feature h3,.quizbox h3,.questions summary{color:var(--ink)!important}
+.card .art{background:linear-gradient(135deg,#f0e9ff,#e2d5ff)!important}
+.number{background:#fff!important;color:var(--purple)!important}
+.video-note{background:#f6f0ff!important;color:var(--purple)!important}
+.small-link,a.small-link{color:var(--purple)!important}
+.notice{background:#f7f1ff!important;border:1px solid #e0d2ff!important}
+.progress{background:#e8e0ff!important}
+.progress span{background:var(--purple-2)!important}
+.answer{
+  background:#faf8ff!important;
+  border:1px solid #d9cdff!important;
+  color:#453a72!important;
+}
+.answer:hover{border-color:var(--purple-2)!important}
+.answer.correct{background:#efe8ff!important;border-color:#af9bef!important}
+.answer.wrong{background:#fde9ff!important;border-color:#d6a8ea!important}
+.footer{
+  border-top:1px solid rgba(255,255,255,.4)!important;
+  color:#f5f1ff!important;
+}
+.footer strong{color:#fff!important}
+/* Remove any residual greenish tints from material cards/features */
+.feature,.feature:nth-child(2){background:#f3eeff!important}
+/* media */
+@media (max-width:980px){.brand img{max-width:340px}}
+@media (max-width:680px){.brand img{max-width:290px}}
+
+
+/* ===== remove any remaining green section backgrounds ===== */
+.section:nth-of-type(even){background:transparent!important}
+.tag,.section .tag,.feature .tag{
+  background:#efe7ff!important;
+  border:2px solid #5f3fba!important;
+  color:#6a43cf!important;
+  box-shadow:none!important;
+}
+#video{background:rgba(255,255,255,.06)!important}
+#materials{background:rgba(255,255,255,.14)!important}
+#practice{background:rgba(255,255,255,.06)!important}
+#quiz{background:rgba(255,255,255,.14)!important}
+#written{background:rgba(255,255,255,.06)!important}
+#quiz .quizbox,
+#written .questions details,
+#practice .feature{
+  background:rgba(255,255,255,.96)!important;
+  border:1px solid #dccfff!important;
+}
+#quiz h2,#written h2,#practice h2,#video h2,#materials h2{color:#fff!important}
+#quiz .section-head p,#written .section-head p,#practice .section-head p{color:#675b88!important}
+
+
+/* Additional chemistry PDF materials */
+.uploaded-materials{margin-top:38px;padding-top:28px;border-top:2px solid #daccff}
+.uploaded-title{margin:0 0 8px;font-size:clamp(25px,3vw,35px);color:#49317c!important}
+.uploaded-subtitle{color:#635384!important;margin:0 0 20px}
+.uploaded-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+.uploaded-grid .card-body{min-height:240px!important}
+.uploaded-grid .material-icon{font-size:36px;margin-bottom:12px}
+@media(max-width:820px){.uploaded-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:590px){.uploaded-grid{grid-template-columns:1fr!important}.uploaded-grid .card-body{min-height:0!important}}
+.lecture-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.lecture-card{background:#faf7ff;border:1px solid #daccff;border-radius:27px;overflow:hidden;box-shadow:0 10px 30px rgba(86,58,155,.12)}.lecture-media{aspect-ratio:16/9;background:#3a256e;overflow:hidden}.lecture-media iframe{display:block;width:100%;height:100%;border:0}.lecture-body{padding:24px;display:flex;flex-direction:column;align-items:flex-start;gap:12px}.lecture-body h3{font-size:clamp(21px,2.5vw,27px);line-height:1.2;margin:0;color:#443079}.lecture-body p{margin:0 0 10px;color:#655888}.lecture-body .primary{text-decoration:none}@media(max-width:720px){.lecture-grid{grid-template-columns:1fr}.lecture-body{padding:19px}}
+.homework-lecture{margin-top:20px;background:#f3edff;border:1px solid #d9c9ff;border-radius:18px;padding:17px;width:100%;box-sizing:border-box}
+.homework-lecture h4,.homework-materials h3{margin:0 0 9px;color:#5731a5;font-size:18px;line-height:1.3}
+.homework-lecture p{margin:0 0 13px;color:#685989;font-size:14px}
+.homework-links{display:flex;flex-wrap:wrap;gap:10px}
+.homework-links a{display:inline-flex;align-items:center;padding:11px 14px;background:#fff;border:1px solid #cdb6ff;border-radius:13px;color:#5c36aa!important;text-decoration:none;font-size:14px;font-weight:800;overflow-wrap:anywhere}
+.homework-links a:hover{background:#e9dcff}
+.homework-materials{padding:20px 0 14px}
+
+/* ===== Clean top badge without green cat ===== */
+.brand-badge-card{
+  width:min(760px,100%)!important;
+  background:transparent!important;
+  border-radius:32px!important;
+  padding:0!important;
+  box-shadow:none!important;
+}
+.brand-badge-card img{display:block;max-width:100%;height:auto}
+.custom-badge{
+  display:flex;
+  align-items:center;
+  gap:22px;
+  min-height:154px;
+  padding:26px 34px;
+  border-radius:34px;
+  background:linear-gradient(180deg,#faf7ff 0%,#f3edff 100%);
+  border:1.5px solid #e1d4ff;
+  box-shadow:0 16px 36px rgba(96,68,173,.10);
+}
+.custom-badge__cat{
+  flex:0 0 116px;
+  width:116px;
+  height:116px;
+  display:grid;
+  place-items:center;
+  border-radius:28px;
+  background:#ede4ff;
+  overflow:hidden;
+}
+.custom-badge__cat img{
+  width:106px;
+  height:106px;
+  object-fit:contain;
+}
+.custom-badge__text{min-width:0}
+.custom-badge__title{
+  font-size:clamp(30px,4.2vw,54px);
+  line-height:1.02;
+  font-weight:900;
+  color:#432a7f;
+  letter-spacing:-1px;
+  margin:0 0 8px;
+}
+.custom-badge__subtitle{
+  font-size:clamp(18px,2vw,24px);
+  line-height:1.2;
+  font-weight:800;
+  color:#6a52b5;
+}
+@media(max-width:760px){
+  .brand-badge-card{width:100%!important}
+  .custom-badge{padding:20px 18px;gap:14px;min-height:unset;border-radius:28px}
+  .custom-badge__cat{flex-basis:86px;width:86px;height:86px;border-radius:22px}
+  .custom-badge__cat img{width:78px;height:78px}
+  .custom-badge__title{font-size:30px}
+  .custom-badge__subtitle{font-size:16px}
+}
+
+</style></head><body id="top">
+<header>
+<div class="wrap nav chemistry-nav">
+<a aria-label="На главную" class="brand" href="#top"><img alt="Химия и котики" src="images/header-logo.png"/></a>
+<nav aria-label="Навигация" class="links">
+<a href="#video">Видеоуроки</a>
+<a href="#materials">Материалы</a>
+<a href="#quiz">Тест</a>
+<a href="#written">Вторая часть</a>
+<a class="pill" href="#materials">Начать</a>
+</nav>
+</div>
+</header>
+<main id="top"><div class="wrap"><section class="hero chemistry-hero" id="start">
+<div class="hero-stack">
+<div class="brand-badge-card">
+  <div class="custom-badge">
+    <div class="custom-badge__cat">
+      <img alt="Котик Химия и котики" src="images/banner-cat.png"/>
+    </div>
+    <div class="custom-badge__text">
+      <div class="custom-badge__title">Химия и котики</div>
+      <div class="custom-badge__subtitle">ХиК · готовимся с интересом</div>
+    </div>
+  </div>
+</div>
+<div class="poster-card"><img alt="Химия и котики — котик-химик рядом" src="images/hero-poster-purple.png"/></div>
+<div class="poster-actions">
+<a class="primary" href="#video">Смотреть уроки</a>
+<a class="secondary" href="#materials">Открыть материалы</a>
+<a class="secondary" href="#quiz">Пройти тест</a>
+</div>
+</div>
+</section></div>
+<section class="section" id="video"><div class="wrap"><div class="section-head"><div><div class="tag">Раздел 01</div><h2>Видеоуроки</h2></div><p>Две лекции по химии. Смотри прямо на сайте или открой оригинал в Kinescope.</p></div><div class="lecture-grid"><article class="lecture-card"><div class="lecture-media"><iframe allow="autoplay; fullscreen; picture-in-picture; encrypted-media" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://kinescope.io/embed/sQFmHvCrgo4d4nF6UokJEo" title="Химическое равновесие — видеолекция"></iframe></div><div class="lecture-body"><div class="tag">Лекция 01</div><h3>Химическое равновесие</h3><p>Видеоурок по химическому равновесию.</p><a class="primary" href="https://kinescope.io/sQFmHvCrgo4d4nF6UokJEo" rel="noopener noreferrer" target="_blank">Смотреть в Kinescope ↗</a><div class="homework-lecture"><h4>📚 Домашнее задание к лекции «Химическое равновесие»</h4><p>Три подборки заданий для самостоятельной практики после лекции.</p><div class="homework-links"><a href="materials/homework-equilibrium-type-30-selection-2.pdf" rel="noopener noreferrer" target="_blank">📄 Тип 30 — подборка 2 · 15 заданий ↗</a><a href="materials/homework-equilibrium-next-30-tasks.pdf" rel="noopener noreferrer" target="_blank">📄 Следующие 30 заданий по химии ↗</a><a href="materials/homework-equilibrium-type-18-selection-2.pdf" rel="noopener noreferrer" target="_blank">📄 Тип 18 — подборка 2 · 30 заданий ↗</a></div></div></div></article><article class="lecture-card"><div class="lecture-media"><iframe allow="autoplay; fullscreen; picture-in-picture; encrypted-media" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://kinescope.io/embed/pliAVe1E" title="26 задачи — видеолекция"></iframe></div><div class="lecture-body"><div class="tag">Лекция 02</div><h3>26 задачи</h3><p>Видеоурок с разбором задач по химии.</p><a class="primary" href="https://kinescope.io/6NwYLtGmz62XKBVVLGLFWr/pliAVe1E" rel="noopener noreferrer" target="_blank">Смотреть в Kinescope ↗</a><div class="homework-lecture">
+<h4>📚 Домашнее задание к лекции «Задание №26»</h4>
+<p>Скачай подборки и реши задания после просмотра лекции.</p>
+<div class="homework-links">
+<a href="materials/homework-26-type-30-selection.pdf" rel="noopener noreferrer" target="_blank">📄 Тип 30 — подборка 1 (15 заданий) ↗</a>
+<a href="materials/homework-26-first-30-tasks.pdf" rel="noopener noreferrer" target="_blank">📄 Первые 30 заданий по химии ↗</a>
+</div>
+</div></div></article></div><p class="notice" style="margin-top:20px">Если встроенный плеер не открывается, используй кнопку «Смотреть в Kinescope».</p></div></section>
+<section class="section" id="materials"><div class="wrap"><div class="section-head"><div><div class="tag">Раздел 02</div><h2>Конспекты и материалы</h2></div><p>Четыре вводных конспекта уже находятся в папке <code>materials</code> и открываются без интернета.</p></div><div class="grid"><article class="card materials"><div class="card-body"><div class="material-icon">📗</div><h3>Строение атома и периодический закон</h3><p>Атом, изотопы, электронные оболочки, периодические свойства</p><a class="small-link" href="materials/01-atom-and-periodic-table.html">Читать конспект ↗</a></div></article>
+<article class="card materials"><div class="card-body"><div class="material-icon">📘</div><h3>Химические связи и реакции</h3><p>Ионная и ковалентная связь, уравнения реакций, ОВР</p><a class="small-link" href="materials/02-bonds-and-reactions.html">Читать конспект ↗</a></div></article>
+<article class="card materials"><div class="card-body"><div class="material-icon">📙</div><h3>Неорганическая химия</h3><p>Оксиды, кислоты, основания и соли, свойства классов</p><a class="small-link" href="materials/03-inorganic-chemistry.html">Читать конспект ↗</a></div></article>
+<article class="card materials"><div class="card-body"><div class="material-icon">📕</div><h3>Органическая химия и расчёты</h3><p>Гомологические ряды, функциональные группы, количество вещества</p><a class="small-link" href="materials/04-organic-and-calculations.html">Читать конспект ↗</a></div></article></div>
+<div class="uploaded-materials">
+<h3 class="uploaded-title">Дополнительные PDF-материалы</h3>
+<p class="uploaded-subtitle">Три учебных файла «Химия и котики» — можно открыть в браузере или скачать.</p>
+<div class="grid uploaded-grid">
+<article class="card materials"><div class="card-body"><div class="material-icon">⚖️</div><h3>Химическое равновесие</h3><p>Конспект с объяснениями: принцип Ле Шателье, температура, давление и концентрация. 8 страниц.</p><a class="small-link" href="materials/chemical-equilibrium-notes.pdf" rel="noopener" target="_blank">Открыть PDF ↗</a></div></article>
+<article class="card materials"><div class="card-body"><div class="material-icon">📝</div><h3>Химическое равновесие — бланк</h3><p>Версия конспекта с незаполненными полями и таблицами для самостоятельной работы. 8 страниц.</p><a class="small-link" href="materials/chemical-equilibrium-worksheet.pdf" rel="noopener" target="_blank">Открыть PDF ↗</a></div></article>
+<article class="card materials"><div class="card-body"><div class="material-icon">🧪</div><h3>Задачи на приготовление растворов</h3><p>Массовая доля вещества, разбавление, упаривание и практические расчётные задания. 12 страниц.</p><a class="small-link" href="materials/solution-preparation-problems.pdf" rel="noopener" target="_blank">Открыть PDF ↗</a></div></article>
+</div>
+</div>
+</div><div class="homework-materials"><h3>Домашнее задание к лекции «Химическое равновесие»</h3><div class="homework-links"><a href="materials/homework-equilibrium-type-30-selection-2.pdf" rel="noopener noreferrer" target="_blank">📄 Тип 30 — подборка 2 · 15 заданий</a><a href="materials/homework-equilibrium-next-30-tasks.pdf" rel="noopener noreferrer" target="_blank">📄 Следующие 30 заданий по химии</a><a href="materials/homework-equilibrium-type-18-selection-2.pdf" rel="noopener noreferrer" target="_blank">📄 Тип 18 — подборка 2 · 30 заданий</a></div></div><div class="homework-materials">
+<h3>Домашнее задание к лекции «Задание №26»</h3>
+<div class="homework-links">
+<a href="materials/homework-26-type-30-selection.pdf" rel="noopener noreferrer" target="_blank">📄 Тип 30 — подборка 1 · 15 заданий</a>
+<a href="materials/homework-26-first-30-tasks.pdf" rel="noopener noreferrer" target="_blank">📄 Первые 30 заданий по химии</a>
+</div>
+</div></section>
+<section class="section" id="practice"><div class="wrap"><div class="section-head"><div><div class="tag">Раздел 03</div><h2>Проверь знания</h2></div><p>Повторение без стресса: сначала тест с пояснениями, затем задания с развёрнутым ответом.</p></div><div class="study-flow"><div class="feature"><div class="tag">Часть 1</div><h3>12 вопросов</h3><p>Выбирай ответ, получай объяснение и отслеживай результат.</p><a class="primary" href="#quiz">Пройти тест</a></div><div class="feature"><div class="tag">Часть 2</div><h3>6 письменных заданий</h3><p>Сначала продумай решение, затем открой образец для самопроверки.</p><a class="primary" href="#written">Решать задания</a></div></div></div></section>
+<section class="section" id="quiz"><div class="wrap"><div class="section-head"><div><div class="tag">Практика · тест</div><h2>Тест по химии</h2></div><p>12 заданий по четырём темам. Правильный ответ показывается после выбора.</p></div><div class="quizbox"><div id="quiz-start"><p>Готов проверить, что запомнилось?</p><button class="primary" id="start-test" type="button">Начать тест →</button></div><div class="hidden" id="quiz-active"><div id="quiz-count" style="font-weight:800;margin-bottom:8px"></div><div class="progress"><span id="bar" style="width:0%"></span></div><h3 id="question" style="font-size:25px;margin-top:25px"></h3><div class="answers" id="answers"></div><div aria-live="polite" class="feedback" id="feedback"></div><button class="primary hidden" id="next" type="button">Следующий вопрос →</button></div><div class="hidden" id="quiz-end"><h3 style="font-size:30px">Готово!</h3><p id="score" style="font-size:20px"></p><button class="primary" id="restart" type="button">Пройти ещё раз</button></div></div></div></section>
+<section class="section" id="written"><div class="wrap"><div class="section-head"><div><div class="tag">Практика · развёрнутый ответ</div><h2>Вторая часть</h2></div><p>Попробуй ответить самостоятельно; раскрой подсказку, когда будешь готов свериться.</p></div><div class="questions"><details><summary>1. Объясни, почему атомный радиус, как правило, увеличивается сверху вниз в группе.</summary><p><strong>Образец ответа:</strong> Возрастает число занятых электронных оболочек; внешние электроны в среднем находятся дальше от ядра, экранирование увеличивается.</p></details>
+<details><summary>2. Почему раствор NaCl проводит электрический ток, а твёрдая поваренная соль — нет?</summary><p><strong>Образец ответа:</strong> В растворе ионы Na⁺ и Cl⁻ способны перемещаться и переносить заряд, а в твёрдой кристаллической решётке они закреплены в узлах.</p></details>
+<details><summary>3. Расставь коэффициенты в реакции Fe + O₂ → Fe₂O₃.</summary><p><strong>Образец ответа:</strong> 4Fe + 3O₂ → 2Fe₂O₃.</p></details>
+<details><summary>4. Приведи уравнение реакции нейтрализации и назови продукты.</summary><p><strong>Образец ответа:</strong> H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O. Продукты: сульфат натрия и вода.</p></details>
+<details><summary>5. Как отличить алкен от алкана с помощью бромной воды?</summary><p><strong>Образец ответа:</strong> Алкен обычно обесцвечивает бромную воду за счёт присоединения Br₂ по двойной связи (в подходящих условиях). Алкан в тех же условиях без облучения обычно не реагирует.</p></details>
+<details><summary>6. Вычисли количество вещества 36 г воды (M(H₂O)=18 г/моль).</summary><p><strong>Образец ответа:</strong> n = m/M = 36/18 = 2 моль.</p></details></div></div></section>
+</main><footer class="footer"><div class="wrap"><strong>Химия и котики</strong><div>Лекции, материалы, тест и задания в сиренево-фиолетовом стиле.</div></div></footer>
+<script>const questions=[{"q": "Какой заряд имеет электрон?", "answers": ["Положительный", "Отрицательный", "Нулевой", "Переменный"], "correct": 1, "why": "Электрон несёт отрицательный элементарный заряд."}, {"q": "Что показывает порядковый номер элемента?", "answers": ["Число нейтронов", "Число протонов", "Относительную атомную массу", "Число изотопов"], "correct": 1, "why": "Порядковый номер равен заряду ядра в единицах элементарного заряда, то есть числу протонов."}, {"q": "Какая связь в молекуле H₂?", "answers": ["Ионная", "Ковалентная неполярная", "Металлическая", "Водородная"], "correct": 1, "why": "Одинаковые атомы водорода образуют общую электронную пару."}, {"q": "Какова степень окисления кислорода в H₂O?", "answers": ["+2", "−1", "−2", "0"], "correct": 2, "why": "В воде кислород имеет степень окисления −2."}, {"q": "Какая формула соответствует серной кислоте?", "answers": ["H₂SO₄", "H₂SO₃", "HCl", "HNO₃"], "correct": 0, "why": "Формула серной кислоты — H₂SO₄."}, {"q": "Какой продукт образуется при нейтрализации HCl раствором NaOH вместе с водой?", "answers": ["Na₂O", "NaCl", "Cl₂", "H₂"], "correct": 1, "why": "HCl + NaOH → NaCl + H₂O."}, {"q": "Что из перечисленного является оксидом?", "answers": ["NaOH", "H₂SO₄", "CaO", "NaCl"], "correct": 2, "why": "CaO — оксид кальция."}, {"q": "Сколько молей содержится в 18 г воды?", "answers": ["0,5", "1", "2", "18"], "correct": 1, "why": "n = m/M = 18/18 = 1 моль."}, {"q": "Общая формула ациклических алканов:", "answers": ["CₙH₂ₙ", "CₙH₂ₙ₊₂", "CₙH₂ₙ₋₂", "CₙHₙ"], "correct": 1, "why": "Для ациклических алканов общая формула CₙH₂ₙ₊₂."}, {"q": "Что означает окисление в ОВР?", "answers": ["Присоединение электронов", "Отдачу электронов", "Изменение массы", "Образование осадка"], "correct": 1, "why": "Окисление — отдача электронов."}, {"q": "Какой газ выделяется при реакции Zn с разбавленной HCl?", "answers": ["O₂", "Cl₂", "H₂", "CO₂"], "correct": 2, "why": "Zn + 2HCl → ZnCl₂ + H₂↑."}, {"q": "Какая функциональная группа характерна для карбоновых кислот?", "answers": ["–OH", "–CHO", "–COOH", "–NH₂"], "correct": 2, "why": "Карбоксильная группа –COOH."}];let at=0,right=0,locked=false;const $=id=>document.getElementById(id);function begin(){at=0;right=0;$('quiz-start').classList.add('hidden');$('quiz-end').classList.add('hidden');$('quiz-active').classList.remove('hidden');draw()}function draw(){locked=false;let x=questions[at];$('quiz-count').textContent=`Вопрос ${at+1} из ${questions.length}`;$('bar').style.width=(at/questions.length*100)+'%';$('question').textContent=x.q;$('answers').innerHTML='';$('feedback').textContent='';$('next').classList.add('hidden');x.answers.forEach((a,i)=>{const b=document.createElement('button');b.className='answer';b.type='button';b.textContent=a;b.onclick=()=>choose(i);$('answers').appendChild(b)})}function choose(i){if(locked)return;locked=true;const x=questions[at];if(i===x.correct)right++;[...$('answers').children].forEach((b,j)=>{b.disabled=true;if(j===x.correct)b.classList.add('correct');else if(j===i)b.classList.add('wrong')});$('feedback').textContent=(i===x.correct?'Верно! ':'Пока нет. ')+x.why;$('next').classList.remove('hidden');$('next').textContent=at===questions.length-1?'Узнать результат →':'Следующий вопрос →'}$('next').onclick=()=>{at++;if(at>=questions.length){$('quiz-active').classList.add('hidden');$('quiz-end').classList.remove('hidden');$('score').textContent=`Ваш результат: ${right} из ${questions.length}`}else draw()};$('start-test').onclick=begin;$('restart').onclick=begin;</script></body></html>
